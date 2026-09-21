@@ -4,7 +4,11 @@ import datetime
 import math
 
 # 페이지 기본 설정
-st.set_page_config(page_title="은하수 관측 계산기", page_icon="🌌", layout="centered")
+st.set_page_config(
+    page_title="은하수 관측 계산기", 
+    page_icon="https://cdn-icons-png.flaticon.com/512/3212/3212567.png", 
+    layout="centered"
+)
 
 # '시각'을 '시점'으로 변경
 st.markdown(
